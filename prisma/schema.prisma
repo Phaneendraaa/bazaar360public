@@ -1,0 +1,67 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Product {
+  id            String   @id @default(uuid())
+  title         String
+  slug          String   @unique
+  description   String   @db.Text
+  price         Float
+  originalPrice Float?
+  images        Json     // Store as JSON array of strings
+  video         String?  // Optional video URL
+  stockQuantity Int      @default(0)
+  SKU           String   @unique
+  tags          Json     // Store as JSON array of strings
+  status        String   @default("ACTIVE") // ACTIVE, DRAFT
+  isFeatured    Boolean  @default(false)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+}
+
+model Order {
+  id              String   @id @default(uuid())
+  orderNumber     String   @unique
+  customerName    String
+  phoneNumber     String
+  alternateNumber String?
+  houseNumber     String
+  street          String
+  landmark        String?
+  city            String
+  state           String
+  pinCode         String
+  notes           String?  @db.Text
+  productName     String
+  productSlug     String
+  quantity        Int
+  price           Float
+  codCharges      Float    @default(0)
+  totalAmount     Float
+  status          String   @default("PENDING") // PENDING, CONFIRMED, SHIPPED, DELIVERED, CANCELLED
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}
+
+model Review {
+  id          String   @id @default(uuid())
+  productSlug String   // Associates review to product by slug
+  customerName String
+  rating      Int      // e.g., 1 to 5 stars
+  comment     String   @db.Text
+  images      Json     // Optional array of review photo URLs (stored as JSON)
+  createdAt   DateTime @default(now())
+}
+
+model Admin {
+  id           String   @id @default(uuid())
+  username     String   @unique
+  passwordHash String
+  createdAt    DateTime @default(now())
+}
