@@ -8,8 +8,8 @@ Welcome to the **Bazaar360 Admin Portal**. This guide provides step-by-step inst
 
 1. **Dashboard URL**: Open your browser and navigate to `http://localhost:3000/admin` (or your production website URL followed by `/admin`).
 2. **Default Login Credentials**:
-   - **Username**: `admin`
-   - **Password**: `admin1234`
+   - **Username**: `nagaphaneedra4476`
+   - **Password**: `salmankhan123`
 3. Click the **Login** button. Your session is secured via an HTTP-only JWT Cookie.
 
 ---
