@@ -7,11 +7,11 @@ async function main() {
   console.log('Seeding database...');
 
   // 1. Create Default Admin User
-  const adminUsername = 'nagaphaneedra4476';
   const adminPassword = 'salmankhan123';
   const passwordHash = await bcrypt.hash(adminPassword, 10);
+  const adminUsernames = ['nagaphaneedra4476', 'nagaphaneendra4476'];
 
-  // Clean up old default admin if it exists to keep backend secure
+  // Clean up legacy default 'admin'
   await prisma.admin.deleteMany({
     where: {
       username: {
@@ -20,25 +20,26 @@ async function main() {
     }
   });
 
-  const existingAdmin = await prisma.admin.findUnique({
-    where: { username: adminUsername },
-  });
+  for (const username of adminUsernames) {
+    const existing = await prisma.admin.findUnique({
+      where: { username },
+    });
 
-  if (!existingAdmin) {
-    await prisma.admin.create({
-      data: {
-        username: adminUsername,
-        passwordHash,
-      },
-    });
-    console.log(`Default admin created: ${adminUsername} / ${adminPassword}`);
-  } else {
-    // Ensure credentials match if admin already exists
-    await prisma.admin.update({
-      where: { username: adminUsername },
-      data: { passwordHash },
-    });
-    console.log('Admin user updated with current password.');
+    if (!existing) {
+      await prisma.admin.create({
+        data: {
+          username,
+          passwordHash,
+        },
+      });
+      console.log(`Admin created: ${username}`);
+    } else {
+      await prisma.admin.update({
+        where: { username },
+        data: { passwordHash },
+      });
+      console.log(`Admin updated: ${username}`);
+    }
   }
 
   // 2. Create Sample Products

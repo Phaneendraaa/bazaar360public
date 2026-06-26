@@ -41,7 +41,8 @@ export default function Navbar() {
 
             <Link
               href="/admin"
-              className="opacity-0 pointer-events-none flex items-center gap-1 rounded-full border border-slate-200 p-1.5 text-slate-500 hover:bg-slate-50 hover:text-blue-600 sm:px-3 sm:py-1.5 sm:text-sm"
+              className="flex items-center gap-1 rounded-full border border-slate-200 p-1.5 text-slate-500 hover:bg-slate-50 hover:text-blue-600 sm:px-3 sm:py-1.5 sm:text-sm"
+              style={{ opacity: 0, pointerEvents: 'none' }}
               title="Admin Portal"
             >
               <ShieldCheck className="h-4 w-4" />
