@@ -13,7 +13,7 @@ export default function Navbar() {
               <Link href="/" className="group flex items-center shrink-0">
                 <img
                   src="/logo.png"
-                  alt="Bazaar360 Logo"
+                  alt="Suta & Stitch Logo"
                   className="h-10 sm:h-12 w-auto object-contain"
                 />
               </Link>
@@ -23,7 +23,7 @@ export default function Navbar() {
               
               {/* Tagline */}
               <span className="hidden text-xs font-semibold tracking-wide text-slate-400 sm:block">
-                Quality Products Delivered to Your Doorstep
+                Hand-crafted Women's Fashion & Accessories
               </span>
             </div>
 

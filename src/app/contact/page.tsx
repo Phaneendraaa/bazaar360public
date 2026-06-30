@@ -91,7 +91,7 @@ export default function ContactPage() {
                   <Mail className="h-5 w-5 text-blue-600" />
                   <div>
                     <h5 className="font-bold text-xs uppercase tracking-wider text-slate-400">Email Support</h5>
-                    <p className="text-sm font-semibold text-slate-700 mt-0.5">support@bazaar360.com</p>
+                    <p className="text-sm font-semibold text-slate-700 mt-0.5">support@sutastitch.com</p>
                   </div>
                 </div>
 
@@ -189,7 +189,7 @@ export default function ContactPage() {
                   <div className="flex h-10 w-10 items-center justify-center rounded-full bg-red-50 text-red-600 shadow border border-red-150">
                     <MapPin className="h-5 w-5 animate-bounce" />
                   </div>
-                  <h4 className="font-bold text-slate-800 text-sm">Bazaar360 Logistics Hub</h4>
+                  <h4 className="font-bold text-slate-800 text-sm">Suta & Stitch Logistics Hub</h4>
                   <p className="text-xs text-slate-400">
                     4th Floor, Innovation Hub Building, Sector 62, Noida, Uttar Pradesh, 201301
                   </p>

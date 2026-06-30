@@ -13,11 +13,11 @@ export default function Footer() {
           <div className="flex flex-col gap-4">
             <img
               src="/logo.png"
-              alt="Bazaar360 Logo"
+              alt="Suta & Stitch Logo"
               className="h-10 w-auto object-contain self-start"
             />
             <p className="text-sm leading-relaxed text-slate-500 max-w-sm">
-              We curate and source only the highest quality products directly from verified manufacturers, delivering them to your doorstep with maximum convenience and reliability.
+              We curate and craft premium women's wear, combining traditional Indian heritage with modern western aesthetics, delivered directly to you with love.
             </p>
           </div>
 
@@ -67,7 +67,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-blue-600" />
-                <a href="mailto:support@bazaar360.com" className="hover:text-blue-600">support@bazaar360.com</a>
+                <a href="mailto:support@sutastitch.com" className="hover:text-blue-600">support@sutastitch.com</a>
               </li>
               <li className="flex items-center gap-2 text-slate-500">
                 <Clock className="h-4 w-4 text-blue-600" />
@@ -89,7 +89,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 border-t border-slate-200 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
-          <p>© {currentYear} Bazaar360. All rights reserved.</p>
+          <p>© {currentYear} Suta & Stitch. All rights reserved.</p>
           <p className="flex gap-4">
             <span>Verified SSL Secure</span>
             <span>COD Available</span>

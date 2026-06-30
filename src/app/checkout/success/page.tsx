@@ -54,7 +54,7 @@ export default function OrderSuccessPage() {
               Order Placed Successfully!
             </h1>
             <p className="mt-2 text-sm text-slate-400">
-              Thank you for shopping with Bazaar360. Your order is being processed.
+              Thank you for shopping with Suta & Stitch. Your order is being processed.
             </p>
 
             {/* Order Info Panel */}

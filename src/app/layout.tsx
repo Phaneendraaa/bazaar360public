@@ -1,23 +1,29 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Outfit, Playfair_Display } from 'next/font/google';
 import './globals.css';
 
-const inter = Inter({
+const outfit = Outfit({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-sans',
 });
 
+const playfair = Playfair_Display({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-serif',
+});
+
 export const metadata: Metadata = {
-  title: 'Bazaar360 | Quality Products Delivered to Your Doorstep',
-  description: 'Shop premium, quality products at Bazaar360 with Fast Shipping and Cash on Delivery (COD) available. Simple, secure, and hassle-free ordering.',
-  keywords: ['Bazaar360', 'E-commerce', 'Cash on Delivery', 'Fast Shipping', 'Dropshipping'],
+  title: 'Suta & Stitch | Premium Women\'s Fashion & Accessories',
+  description: 'Discover colorful, hand-crafted Indian wear, Western wear, and designer accessories at Suta & Stitch. Fast shipping and Cash on Delivery (COD) available.',
+  keywords: ['Suta & Stitch', 'Suta and Stitch', 'Womens Fashion', 'Indian Wear', 'Western Wear', 'Accessories', 'Saree', 'Anarkali', 'Cash on Delivery'],
   openGraph: {
-    title: 'Bazaar360 | Quality Products Delivered to Your Doorstep',
-    description: 'Shop premium quality products at Bazaar360. Secure checkout and Cash on Delivery (COD) available.',
+    title: 'Suta & Stitch | Premium Women\'s Fashion & Accessories',
+    description: 'Shop colorful, premium women\'s fashion and accessories at Suta & Stitch. Cash on Delivery (COD) and free shipping available.',
     type: 'website',
-    url: 'https://bazaar360.com',
-    siteName: 'Bazaar360',
+    url: 'https://sutastitch.com',
+    siteName: 'Suta & Stitch',
   },
   robots: {
     index: true,
@@ -31,7 +37,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${inter.variable} font-sans h-full antialiased`}>
+    <html lang="en" className={`${outfit.variable} ${playfair.variable} font-sans h-full antialiased`}>
       <body className="min-h-full flex flex-col bg-white text-slate-800">
         {children}
       </body>

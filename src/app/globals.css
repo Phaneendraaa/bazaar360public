@@ -1,5 +1,23 @@
 @import "tailwindcss";
 
+@theme {
+  /* Override blue to be Rose for a feminine fashion brand theme */
+  --color-blue-50: #fff1f2;
+  --color-blue-100: #ffe4e6;
+  --color-blue-200: #fecdd3;
+  --color-blue-300: #fda4af;
+  --color-blue-400: #fb7185;
+  --color-blue-500: #f43f5e;
+  --color-blue-600: #e11d48;
+  --color-blue-700: #be123c;
+  --color-blue-800: #9f1239;
+  --color-blue-900: #881337;
+
+  /* Configure custom font families */
+  --font-sans: var(--font-sans), system-ui, sans-serif;
+  --font-serif: var(--font-serif), Georgia, serif;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #1e293b;

@@ -45,129 +45,260 @@ async function main() {
   // 2. Create Sample Products
   const sampleProducts = [
     {
-      title: 'Bazaar360 Wireless Charging Pad 15W',
-      slug: 'wireless-charging-pad-15w',
-      description: `Power up your devices rapidly and elegantly. The Bazaar360 Wireless Charging Pad delivers up to 15W of wireless charging speeds for compatible iPhone and Android devices. Crafted with premium aerospace-grade aluminum and a soft-touch matte surface, it complements any workspace or nightstand.
+      title: 'Royal Emerald Banarasi Silk Saree',
+      slug: 'royal-emerald-banarasi-silk-saree',
+      description: `Drape yourself in royal elegance with our Royal Emerald Banarasi Silk Saree. Handcrafted by master weavers in Varanasi, this exquisite saree features intricate zari work and traditional floral motifs woven into premium grade silk. Ideal for weddings, festivals, and celebratory occasions.
 
 Highlights:
-- 15W Fast Wireless Charging
-- Ultra-slim 5.5mm profile
-- Intelligent temperature control & foreign object detection
-- Modern USB-C input port
-- Soft anti-slip rubber ring holds your device securely
+- Pure Banarasi Katan silk fabric
+- Elaborate gold zari pallu and borders
+- Unstitched matching blouse piece included (80cm)
+- Rich emerald green color with classic motifs
 
 Specifications:
-- Input: 5V/2A, 9V/2A, 12V/1.5A
-- Output: 5W / 7.5W / 10W / 15W
-- Dimensions: 98mm x 98mm x 5.5mm
-- Material: Aluminum Alloy + ABS
-- Package includes: Charging pad, 1m USB-C to USB-C cable, User manual`,
-      price: 1499,
-      originalPrice: 2999,
+- Material: Katan Silk
+- Length: 5.5 meters saree + 0.8 meters blouse
+- Color: Emerald Green & Gold
+- Care: Dry clean only`,
+      price: 4299,
+      originalPrice: 8999,
       images: [
-        'https://images.unsplash.com/photo-1622445262465-2481c4574875?w=800&auto=format&fit=crop&q=80',
-        'https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=800&auto=format&fit=crop&q=80'
+        'https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=800&auto=format&fit=crop&q=80',
+        'https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?w=800&auto=format&fit=crop&q=80'
       ],
       video: null,
-      stockQuantity: 150,
-      SKU: 'WCP-15W-SLV',
-      tags: ['electronics', 'charger', 'featured'],
+      stockQuantity: 45,
+      SKU: 'SS-IND-BAN',
+      tags: ['indian-wear', 'featured'],
       status: 'ACTIVE',
       isFeatured: true,
     },
     {
-      title: 'Aura Premium Stainless Steel Bottle 750ml',
-      slug: 'aura-premium-stainless-steel-bottle-750ml',
-      description: `Stay hydrated throughout the day with style and performance. The Aura Premium Stainless Steel Bottle features advanced triple-wall vacuum insulation to keep your beverages ice-cold for up to 24 hours or steaming hot for up to 12 hours. Constructed from durable, food-grade 18/8 stainless steel, it is 100% BPA-free and leakproof.
+      title: 'Elegant Crimson Embroidered Anarkali Suit',
+      slug: 'elegant-crimson-embroidered-anarkali-suit',
+      description: `Make a stunning statement in our Crimson Embroidered Anarkali Suit. Crafted from premium georgette fabric, this floor-length outfit showcases detailed hand embroidery and zardozi embellishments along the neckline and sleeves. Comes complete with a matching churidar and a sheer dupatta.
 
 Highlights:
-- TempShield triple-wall vacuum insulation
-- Keeps cold up to 24 hours, hot up to 12 hours
-- Durable 18/8 Pro-Grade Stainless Steel
-- BPA-Free and Phthalate-Free
-- Leakproof flex cap with durable handle
+- High-quality georgette fabric with soft lining
+- Intricate gold thread hand embroidery
+- Semi-stitched for custom tailoring adjustments
+- Elegant floor-length flowy silhouette
 
 Specifications:
-- Capacity: 750 ml (25 oz)
-- Height: 275 mm
-- Weight: 375g
-- Material: 18/8 Food-grade Stainless Steel
-- Care: Hand wash recommended`,
-      price: 1899,
-      originalPrice: 3499,
+- Material: Georgette & Shantoon
+- Set Includes: Anarkali Kurta, Churidar, Dupatta
+- Color: Crimson Red & Gold
+- Care: Dry clean recommended`,
+      price: 3499,
+      originalPrice: 6999,
       images: [
-        'https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=800&auto=format&fit=crop&q=80',
-        'https://images.unsplash.com/photo-1523362628745-0c100150b504?w=800&auto=format&fit=crop&q=80'
+        'https://images.unsplash.com/photo-1608748010899-18f300247112?w=800&auto=format&fit=crop&q=80',
+        'https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80'
       ],
       video: null,
-      stockQuantity: 80,
-      SKU: 'AURA-SSB-750',
-      tags: ['lifestyle', 'bottle', 'featured'],
+      stockQuantity: 30,
+      SKU: 'SS-IND-ANA',
+      tags: ['indian-wear', 'featured'],
       status: 'ACTIVE',
       isFeatured: true,
     },
     {
-      title: 'Precision Ergonomic Wireless Mouse',
-      slug: 'precision-ergonomic-wireless-mouse',
-      description: `Designed for comfort, engineered for performance. The Precision Ergonomic Wireless Mouse features a unique sculpted shape that supports your hand and wrist in a natural posture, reducing fatigue during long working hours. With a high-precision 4000 DPI sensor, customizable buttons, and multi-device connection capabilities, it is the ultimate productivity companion.
+      title: 'Pastel Mint Floral Print Kurta Set',
+      slug: 'pastel-mint-floral-print-kurta-set',
+      description: `Perfect for casual days or daytime gatherings, our Pastel Mint Floral Kurta Set combines comfort with style. Made of breathable pure cotton, the set includes a straight-cut floral kurta, matching cropped trousers, and a lightweight printed cotton dupatta.
 
 Highlights:
-- Ergonomic sculpted design reduces muscle strain
-- Dual connection: Bluetooth & 2.4GHz USB wireless receiver
-- High-precision 4000 DPI adjustable tracking sensor
-- Quiet-click buttons for peaceful environments
-- Rechargeable battery via USB-C (lasts up to 70 days on a single charge)
+- 100% premium breathable cotton fabric
+- Delicate hand-block floral print design
+- Comfortable straight fit kurta with side slits
+- Cropped trousers with elasticated waistband
 
 Specifications:
-- DPI Range: 800 - 4000 DPI
-- Wireless Range: 10 meters (33 feet)
-- Weight: 115g
-- Charging: USB-C Fast Charge
-- OS Compatibility: Windows, macOS, iPadOS, ChromeOS, Linux`,
-      price: 2299,
+- Material: 100% Cotton
+- Set Includes: Kurta, Pants, Dupatta
+- Color: Mint Green & Soft Pink
+- Care: Gentle hand wash or machine wash cold`,
+      price: 2199,
       originalPrice: 4499,
       images: [
-        'https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=800&auto=format&fit=crop&q=80',
-        'https://images.unsplash.com/photo-1625842268584-8f3290455655?w=800&auto=format&fit=crop&q=80'
+        'https://images.unsplash.com/photo-1609357518652-6cf0416f0cbe?w=800&auto=format&fit=crop&q=80'
       ],
       video: null,
-      stockQuantity: 120,
-      SKU: 'PEM-WLS-MOU',
-      tags: ['electronics', 'office'],
+      stockQuantity: 60,
+      SKU: 'SS-IND-KUR',
+      tags: ['indian-wear'],
       status: 'ACTIVE',
       isFeatured: false,
     },
     {
-      title: 'Bazaar360 Sonic Link Bluetooth Speaker',
-      slug: 'sonic-link-bluetooth-speaker',
-      description: `Experience immersive, 360-degree room-filling audio wherever you go. The Sonic Link Bluetooth Speaker packs incredibly powerful, crystal-clear sound with rich bass in an ultra-portable design. With an IPX7 waterproof rating and up to 20 hours of continuous playtime, this speaker is built to survive outdoor adventures and pool parties.
+      title: 'Sunshine Yellow Floral Midi Dress',
+      slug: 'sunshine-yellow-floral-midi-dress',
+      description: `Bring the sunshine with you in our gorgeous Sunshine Yellow Floral Midi Dress. Featuring a soft sweetheart neckline, puffed sleeves, and a tiered skirt with an delicate floral print. The breathable fabric and smocked back design ensure a perfect, comfortable fit for brunch or casual outings.
 
 Highlights:
-- Immersive 360-degree stereo sound with deep bass
-- IPX7 fully waterproof and dustproof
-- Massive battery life: up to 20 hours of playback
-- Bluetooth 5.2 for stable wireless connectivity
-- Pair two Sonic Link speakers for True Wireless Stereo (TWS)
+- Light and flowy viscose rayon fabric
+- Vibrant yellow color with pastel floral print
+- Smocked back and elasticated sleeves for ease of fit
+- Elegant midi length with tiered detailing
 
 Specifications:
-- Output Power: 2 x 10W RMS
-- Battery Capacity: 4400 mAh
-- Charge Time: 3 hours via USB-C
-- Waterproof Rating: IPX7
-- Dimensions: 180mm x 70mm x 70mm
-- Weight: 480g`,
-      price: 2999,
-      originalPrice: 5999,
+- Material: Viscose Rayon
+- Pattern: Floral Print
+- Length: Midi
+- Fit: Regular Fit / True to Size`,
+      price: 2499,
+      originalPrice: 4999,
       images: [
-        'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=800&auto=format&fit=crop&q=80',
-        'https://images.unsplash.com/photo-1545454675-3531b543be5d?w=800&auto=format&fit=crop&q=80'
+        'https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&auto=format&fit=crop&q=80',
+        'https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=800&auto=format&fit=crop&q=80'
+      ],
+      video: null,
+      stockQuantity: 40,
+      SKU: 'SS-WES-FLO',
+      tags: ['western-wear', 'featured'],
+      status: 'ACTIVE',
+      isFeatured: true,
+    },
+    {
+      title: 'Classic Sage Green Satin Wrap Top',
+      slug: 'classic-sage-green-satin-wrap-top',
+      description: `Elevate your workwear or evening look with our Classic Sage Green Satin Wrap Top. Made from high-shine premium satin, it features long balloon sleeves and an adjustable tie-side wrap design that flatters all body types. Pair it with high-waisted trousers or skirts for a chic, sophisticated look.
+
+Highlights:
+- Smooth premium satin fabric
+- Fully adjustable wrap tie closure
+- Elegant balloon sleeves with buttoned cuffs
+- Flattering V-neckline
+
+Specifications:
+- Material: Polyester Satin
+- Fit: Adjustable Wrap
+- Sleeve Style: Long Balloon Sleeve
+- Color: Sage Green`,
+      price: 1599,
+      originalPrice: 3199,
+      images: [
+        'https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=800&auto=format&fit=crop&q=80'
       ],
       video: null,
       stockQuantity: 50,
-      SKU: 'SLB-SPK-BLK',
-      tags: ['electronics', 'featured'],
+      SKU: 'SS-WES-SAT',
+      tags: ['western-wear'],
+      status: 'ACTIVE',
+      isFeatured: false,
+    },
+    {
+      title: 'Midnight Black Pleated A-Line Skirt',
+      slug: 'midnight-black-pleated-a-line-skirt',
+      description: `A timeless wardrobe staple. Our Midnight Black Pleated A-Line Skirt is designed with structured accordion pleats that move beautifully with every step. Made with a comfortable elasticated waistband, it can be styled up with heels or styled down with sneakers.
+
+Highlights:
+- Mid-weight crepe fabric with sharp pleats
+- Elasticated comfort waistband
+- Classic A-line midi silhouette
+- Versatile design for day-to-night styling
+
+Specifications:
+- Material: Crepe
+- Waist: Mid-Rise Elasticated
+- Color: Midnight Black
+- Care: Dry clean or cold hand wash`,
+      price: 1899,
+      originalPrice: 3799,
+      images: [
+        'https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=800&auto=format&fit=crop&q=80'
+      ],
+      video: null,
+      stockQuantity: 35,
+      SKU: 'SS-WES-PLE',
+      tags: ['western-wear', 'featured'],
       status: 'ACTIVE',
       isFeatured: true,
+    },
+    {
+      title: 'Handcrafted Kundan Chandbali Earrings',
+      slug: 'handcrafted-kundan-chandbali-earrings',
+      description: `Exquisite handcrafted Kundan Chandbali Earrings, perfect to complete your ethnic attire. Decorated with premium Kundan stones, micro-pearls, and delicate enamel detailing, these lightweight statement earrings add a touch of royal heritage to any ensemble.
+
+Highlights:
+- Traditional chandbali drop design
+- Intricate Kundan stone work and pearl droplets
+- Light gold-plated base alloy, comfortable for long wear
+- Push-back closure with secure support
+
+Specifications:
+- Material: Gold-plated alloy, Kundan, Faux Pearls
+- Weight: 25g per pair
+- Color: Gold & Ivory
+- Style: Traditional Ethnic`,
+      price: 1299,
+      originalPrice: 2499,
+      images: [
+        'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&auto=format&fit=crop&q=80'
+      ],
+      video: null,
+      stockQuantity: 100,
+      SKU: 'SS-ACC-KUN',
+      tags: ['accessories', 'featured'],
+      status: 'ACTIVE',
+      isFeatured: true,
+    },
+    {
+      title: 'Parisian Blush Pink Leather Sling Bag',
+      slug: 'parisian-blush-pink-leather-sling-bag',
+      description: `Add a chic finish to your look with our Parisian Blush Pink Leather Sling Bag. Crafted from premium vegan leather, it features structured quilting, polished gold-toned hardware, and a convertible chain strap that can be worn crossbody or over the shoulder. Compact yet spacious enough for your essentials.
+
+Highlights:
+- Premium quilted vegan leather
+- Secure turn-lock front flap closure
+- Multi-compartment interior pocket
+- Convertible gold chain strap
+
+Specifications:
+- Material: Quilted Vegan Leather
+- Dimensions: 22cm x 14cm x 7cm
+- Color: Blush Pink & Gold
+- Strap: Convertible Chain (55cm drop)`,
+      price: 2799,
+      originalPrice: 5499,
+      images: [
+        'https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800&auto=format&fit=crop&q=80',
+        'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&auto=format&fit=crop&q=80'
+      ],
+      video: null,
+      stockQuantity: 25,
+      SKU: 'SS-ACC-SLB',
+      tags: ['accessories', 'featured'],
+      status: 'ACTIVE',
+      isFeatured: true,
+    },
+    {
+      title: 'Embellished Gold Zardozi Velvet Juttis',
+      slug: 'embellished-gold-zardozi-velvet-juttis',
+      description: `Step into sheer luxury with our hand-embellished Gold Zardozi Juttis. Made on a plush velvet base, these traditional juttis feature intricate hand-embroidered gold thread work. Padded memory foam insoles ensure you stay comfortable all day and night.
+
+Highlights:
+- Handcrafted on a premium velvet base
+- Royal gold thread Zardozi hand embroidery
+- Extra padded insoles for superior comfort
+- Genuine leather sole for durability
+
+Specifications:
+- Base Material: Velvet
+- Embroidery: Zardozi Gold Wire
+- Insole: Padded Memory Foam
+- Sole: Leather`,
+      price: 1799,
+      originalPrice: 3599,
+      images: [
+        'https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&auto=format&fit=crop&q=80'
+      ],
+      video: null,
+      stockQuantity: 40,
+      SKU: 'SS-ACC-JUT',
+      tags: ['accessories'],
+      status: 'ACTIVE',
+      isFeatured: false,
     }
   ];
 
@@ -179,6 +310,10 @@ Specifications:
         originalPrice: product.originalPrice,
         title: product.title,
         description: product.description,
+        tags: product.tags,
+        images: product.images,
+        SKU: product.SKU,
+        isFeatured: product.isFeatured,
       },
       create: product,
     });
@@ -186,51 +321,41 @@ Specifications:
   }
 
   console.log('Clearing old sample reviews for re-seeding...');
-  const sampleReviewIdentifiers = [
-    { productSlug: 'wireless-charging-pad-15w', customerName: 'Alex Mercer' },
-    { productSlug: 'wireless-charging-pad-15w', customerName: 'Sarah Jenkins' },
-    { productSlug: 'aura-premium-stainless-steel-bottle-750ml', customerName: 'David K.' },
-    { productSlug: 'sonic-link-bluetooth-speaker', customerName: 'Michael V.' },
-  ];
-  for (const id of sampleReviewIdentifiers) {
-    await prisma.review.deleteMany({
-      where: id,
-    });
-  }
+  await prisma.review.deleteMany({});
 
   console.log('Seeding sample reviews...');
   const sampleReviews = [
     {
-      productSlug: 'wireless-charging-pad-15w',
-      customerName: 'Alex Mercer',
+      productSlug: 'royal-emerald-banarasi-silk-saree',
+      customerName: 'Aishwarya R.',
       rating: 5,
-      comment: 'Very premium packaging and build quality. Charges my iPhone 14 quickly and doesn’t heat up like other cheap chargers. The aluminum body feels very solid.',
+      comment: 'Absolutely stunning! The katan silk feels incredibly premium and the gold zari is weave perfection. Wore it for my brother\'s wedding and received endless compliments.',
       images: [],
-      createdAt: new Date(Date.now() - 95 * 24 * 60 * 60 * 1000), // ~3.1 months ago
+      createdAt: new Date(Date.now() - 10 * 24 * 60 * 60 * 1000),
     },
     {
-      productSlug: 'wireless-charging-pad-15w',
-      customerName: 'Sarah Jenkins',
+      productSlug: 'royal-emerald-banarasi-silk-saree',
+      customerName: 'Meera Sen',
       rating: 4,
-      comment: 'Excellent charger! It looks super neat on my desk. Standard shipping was reasonably fast and it was securely packaged.',
+      comment: 'Beautiful drape and color. The gold zari has a lovely sheen, not too flashy. It took 4 days to arrive in Mumbai, packaging was very secure.',
       images: [],
-      createdAt: new Date(Date.now() - 110 * 24 * 60 * 60 * 1000), // ~3.6 months ago
+      createdAt: new Date(Date.now() - 15 * 24 * 60 * 60 * 1000),
     },
     {
-      productSlug: 'aura-premium-stainless-steel-bottle-750ml',
-      customerName: 'David K.',
+      productSlug: 'elegant-crimson-embroidered-anarkali-suit',
+      customerName: 'Priya Sharma',
       rating: 5,
-      comment: 'It really does keep drinks ice cold all day! Took it on a hike under 35C sun and the water stayed freezing cold. Highly recommended.',
+      comment: 'The embroidery work is beautiful and very clean. Semi-stitched fit allowed me to get it tailored to my exact measurements. Perfect crimson red shade!',
       images: [],
-      createdAt: new Date(Date.now() - 125 * 24 * 60 * 60 * 1000), // ~4.1 months ago
+      createdAt: new Date(Date.now() - 5 * 24 * 60 * 60 * 1000),
     },
     {
-      productSlug: 'sonic-link-bluetooth-speaker',
-      customerName: 'Michael V.',
+      productSlug: 'parisian-blush-pink-leather-sling-bag',
+      customerName: 'Anjali K.',
       rating: 5,
-      comment: 'This little speaker packs a punch! Bass is deep and doesn’t distort at high volumes. Fully waterproof, already tested it by the pool.',
+      comment: 'Love the quality of the vegan leather and the blush pink color is so beautiful. Convertible strap is super handy. Highly recommend Suta & Stitch!',
       images: [],
-      createdAt: new Date(Date.now() - 140 * 24 * 60 * 60 * 1000), // ~4.6 months ago
+      createdAt: new Date(Date.now() - 8 * 24 * 60 * 60 * 1000),
     }
   ];
 
